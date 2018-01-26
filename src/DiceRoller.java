@@ -42,7 +42,7 @@ public class DiceRoller {
 			System.out.println("Want to roll again");
 			rollAgain = scnr.next();
 			if (!rollAgain.equalsIgnoreCase("y")) {
-				System.out.println("Ok, bye.");
+				System.out.println("Ok, bye. ");
 			}
 		}
 		scnr.close();
